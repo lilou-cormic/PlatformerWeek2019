@@ -1149,9 +1149,9 @@ PrefabInstance:
       value: "Contains music \xA92019 Joshua McLean (mrjoshuamclean.com)\r\nLicensed
         under Creative Commons Attribution-ShareAlike 4.0 International\n\nContains
         fonts \xA92014 Emmeran RICHARD (www.emmeranrichard.fr)\nand \xA92018 The ZCOOL
-        QingKe HuangYou Project Authors (https://www.github.com/googlefonts/zcool-qingke-huangyou)\n\nContaines
-        assets by Kenney (www.kenney.nl)\n\nTools Used:\n- Unity 2018.3.7f1\n- Visual
-        Studio Community 2017 15.9.7"
+        QingKe HuangYou Project Authors (https://www.github.com/googlefonts/zcool-qingke-huangyou)\n\nContains
+        assets (graphics and sounds) by Kenney (www.kenney.nl)\n\nTools Used:\n- Unity
+        2018.3.7f1\n- Visual Studio Community 2017 15.9.7"
       objectReference: {fileID: 0}
     - target: {fileID: 2048037261337923964, guid: 6e216d8a362c8cb4fb4d3a4e25d5b024,
         type: 3}
@@ -1166,17 +1166,17 @@ PrefabInstance:
     - target: {fileID: 2048037261337923964, guid: 6e216d8a362c8cb4fb4d3a4e25d5b024,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 416
+      value: 437
       objectReference: {fileID: 0}
     - target: {fileID: 2048037261337923964, guid: 6e216d8a362c8cb4fb4d3a4e25d5b024,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 46
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 2048037261337923964, guid: 6e216d8a362c8cb4fb4d3a4e25d5b024,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 59
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 2048037261337923964, guid: 6e216d8a362c8cb4fb4d3a4e25d5b024,
         type: 3}

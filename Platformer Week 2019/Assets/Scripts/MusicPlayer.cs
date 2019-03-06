@@ -44,7 +44,7 @@ public class MusicPlayer : MonoBehaviour
                 break;
 
             case "Main":
-            case "GameOver":
+            case "Win":
                 MenuMusicAudioSource.Stop();
 
                 if (!GameMusicAudioSource.isPlaying)
