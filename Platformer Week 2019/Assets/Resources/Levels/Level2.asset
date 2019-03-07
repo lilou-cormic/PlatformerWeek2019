@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Number: 2
   DescriptionText: 
-  LevelLayout: "           G\r\n P        --- \r\n---  O       --\r\n    --- ----"
+  LevelLayout: "           G\r\n P        --- \r\n---  O        --\r\n    ---  ----"

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 640989668652878197}
   - component: {fileID: 2829760892941702718}
   - component: {fileID: 3083335300395875842}
+  - component: {fileID: 7694046378087012772}
   m_Layer: 10
   m_Name: Goal
   m_TagString: Finish
@@ -120,3 +121,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PickupSound: {fileID: 8300000, guid: 5d4f258c4eec34047a7987f7423ff470, type: 3}
+--- !u!95 &7694046378087012772
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640989668652878198}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 97cb9d2b0293e1b4f824bcc8463b4c65, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

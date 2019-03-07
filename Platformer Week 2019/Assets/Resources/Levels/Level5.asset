@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f201b8a72e993049954dc9980833538, type: 3}
+  m_Name: Level5
+  m_EditorClassIdentifier: 
+  Number: 5
+  DescriptionText: 
+  LevelLayout: "                                                        K\r\n B                              -----
+    \                 ---\r\n----         P  ---               |            B   ---\r\n
+    \ K  ---  -----     B         --------  ---  -----                  -----\r\n
+    ---            --------  ---                      ---  ---  ---    | G |\r\n                              ---
+    \ O                             --------\r\n                                  ---"

@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+    private static LevelManager _instance;
+
     public static int CurrentLevelIndex = 0;
 
     private static LevelDef[] Levels;
@@ -26,6 +28,9 @@ public class LevelManager : MonoBehaviour
     private GameObject LightPickupPrefab = null;
 
     [SerializeField]
+    private GameObject BarnaclePrefab = null;
+
+    [SerializeField]
     private AudioClip LoseSound = null;
 
     [SerializeField]
@@ -35,6 +40,11 @@ public class LevelManager : MonoBehaviour
     private TMPro.TextMeshProUGUI DescriptionText = null;
 
     private float _minY = -10;
+
+    private void Awake()
+    {
+        _instance = this;
+    }
 
     private void Start()
     {
@@ -50,7 +60,7 @@ public class LevelManager : MonoBehaviour
         {
             Retry();
         }
-        else if (Input.GetKeyDown(KeyCode.S))
+        else if (Input.GetKeyDown(KeyCode.N))
         {
             Skip();
         }
@@ -61,11 +71,11 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    private void Lose()
+    public static void Lose()
     {
-        SoundPlayer.Play(LoseSound);
+        SoundPlayer.Play(_instance.LoseSound);
 
-        Retry();
+        _instance.Retry();
     }
 
     public void Retry()
@@ -126,6 +136,10 @@ public class LevelManager : MonoBehaviour
                     case 'O':
                         Instantiate(LightPickupPrefab, new Vector3(col, -row, 0), Quaternion.identity, transform);
                         Player.SetLightActive(false);
+                        break;
+
+                    case 'B':
+                        Instantiate(BarnaclePrefab, new Vector3(col, -row, 0), Quaternion.identity, transform);
                         break;
 
                     default:
